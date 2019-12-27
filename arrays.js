@@ -5,7 +5,7 @@ return [butterfinger, ...chocolateBars];
 }
 destructivelyAddElementToBeginningOfArray(chocolateBars, butterfinger){
 chocolateBars.unshift('butterfinger');
-return chocolateBars; 
+return chocolateBars;
 }
 addElementToEndOfArray(chocolateBars, butterfinger){
   return[...chocolateBars, butterfinger];
@@ -21,7 +21,7 @@ destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   return chocolateBars.shift();
 }
 removeElementFromBeginningOfArray(chocolateBars){
-  return chocolateBars.slice(1); 
+  return chocolateBars.slice(1);
 }
 destructivelyRemoveElementFromEndOfArray(chocolateBars){
   return chocolateBars.pop();
@@ -29,4 +29,3 @@ destructivelyRemoveElementFromEndOfArray(chocolateBars){
 removeElementFromEndOfArray(chocolateBars){
   return chocolateBars.slice(0, chocolateBars.length - 1);
 }
-
